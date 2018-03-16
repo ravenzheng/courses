@@ -144,9 +144,9 @@ main {
   color: #ec407a;
 }
 
-.markdown-body img {
+/* .markdown-body img {
   float: right;
-}
+} */
 
 .note-footer {
   background-color: #f8f8f8;

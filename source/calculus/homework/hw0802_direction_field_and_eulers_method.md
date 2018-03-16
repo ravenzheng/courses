@@ -16,7 +16,7 @@ $$
 
 4\. Give a geometrical explanation of how Euler's method works.
 >Solution
-
+By dividing the interval $[0, T]$ into $N$ time steps of eqaul length $\Delta t = \dfrac{T}{N}$, we create a set of grid points, $t_0=0, t_1 = \Delta t, t_2 = 2\Delta t \cdots t_N = T$, the approximation $u_k$ to the exact solution at the grid points can be give as $u_{k+1} = u_k + f(t_k, u_k) \cdot \Delta t$. Each $u_k$ is an approximation to the exact solutions $y(t_k)$.
 
 5–6\. **Direction fields** A differential equation and its direction field are shown in the following figures. Sketch a graph of the solution curve that passes through the given initial conditions.
 5\. $y'(t) = \dfrac{t^2}{y^2 + 1}, y(0) = -2, y(-2) = 0$.
