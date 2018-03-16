@@ -1,5 +1,5 @@
 ### Section 8.4 Special First Order Differential Equations
-p603: On the following, show complete steps to actually SET UP and SOLVE the related differential equation. 27, 29, 39
+p603: On the following, show complete steps to actually SET UP and SOLVE the related differential equation. 27, 29, **39**
 
 **Newton's Law of Cooling**
 The rate at which the tempature changes at any time is proportional to the _temperature difference_ between the object and the ambient tempature. Let the current tempature of the object be $T$, the initial tempature of the object be $T(0) = T_0$ and the ambient tempature be $A$, where $A$ and $T_0$ are constants. We have
