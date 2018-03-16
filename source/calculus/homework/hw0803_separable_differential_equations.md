@@ -29,8 +29,7 @@ $$
 \begin{aligned}
 y y' &= 3t^2\\
 \int y dy &= \int 3t^2 dt\\
-\frac{1}{2}y^2 &= t^3 + C\\
-y &= \pm \sqrt {2t^3 + C}
+\frac{1}{2}y^2 &= t^3 + C \To y = \pm \sqrt {2t^3 + C}
 \end{aligned}
 $$
 
@@ -42,8 +41,7 @@ e^{-\frac{y}{2}} y' &= \sin t\\
 \int e^{-\frac{y}{2}} dy &= \int \sin t dt\\
 -2e^{-\frac{y}{2}} &= -\cos t + C\\
 e^{-\frac{y}{2}} &= \frac{\cos t}{2} + C\\
--\frac{y}{2} &= \ln (\frac{\cos t}{2} + C)\\
-y&= -2\ln (\frac{\cos t}{2} + C)
+-\frac{y}{2} &= \ln (\frac{\cos t}{2} + C) \To y= -2\ln (\frac{\cos t}{2} + C)
 \end{aligned}
 $$
 
@@ -53,8 +51,7 @@ $$
 \begin{aligned}
 y^{-3} y' &= -\frac{\sin t}{2}\\
 \int y^{-3} dy &= \int (-\frac{\sin t}{2}) dt\\
--\frac{1}{2} y^{-2} &= \frac{\cos t}{2} + C\\
-y &= \pm \sqrt {\frac{1}{-\cos t + C}}
+-\frac{1}{2} y^{-2} &= \frac{\cos t}{2} + C \To y = \pm \sqrt {\frac{1}{-\cos t + C}}
 \end{aligned}
 $$
 
@@ -64,8 +61,8 @@ $$
 \begin{aligned}
 \frac{1}{y^2 + 4} y'&= e^{-\frac{t}{2}} \\
 \int \frac{1}{y^2 + 4} dy&= \int e^{-\frac{t}{2}} dt\\
-\frac{1}{2} \arctan \frac{y}{2} &= -2e^{-\frac{t}{2}} + C\\
-y &= 2\tan (-4e^{-\frac{t}{2}} + C)
+\frac{1}{2} \arctan \frac{y}{2} &= -2e^{-\frac{t}{2}} + C \To
+y = 2\tan (-4e^{-\frac{t}{2}} + C)
 \end{aligned}
 $$
 
@@ -75,8 +72,8 @@ $$
 \begin{aligned}
 e^u \cdot u'(x) &= e^{2x}\\
 \int e^u \cdot du &= \int e^{2x} dx\\
-e^u &= \frac{1}{2}e^{2x} + C\\
-u &= \ln (\frac{1}{2}e^{2x} + C)
+e^u &= \frac{1}{2}e^{2x} + C\To
+u = \ln (\frac{1}{2}e^{2x} + C)
 \end{aligned}
 $$
 
@@ -138,10 +135,7 @@ y^2 &= t^2 + 3
 \end{aligned}
 $$
 
-33\. **Logistic equation for a population** A community of hares on an island has a population of $50$ when observations begin (at $t = 0$). The population is modeled by the initial value problem
-$$
-\frac{dP}{dt} = 0.08P(1-\frac{P}{200}), P(0) = 50
-$$
+33\. **Logistic equation for a population** A community of hares on an island has a population of $50$ when observations begin (at $t = 0$). The population is modeled by the initial value problem $\dfrac{dP}{dt} = 0.08P(1-\frac{P}{200}), P(0) = 50$.
 a. Find and graph the solution of the initial value problem, for $t \ges 0$.
 >Solution
 [Graph (33a)](https://www.desmos.com/calculator/x08jzd3lx7).
