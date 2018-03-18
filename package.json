@@ -1,18 +1,23 @@
 {
   "name": "courses",
   "version": "0.0.1",
-  "description":
-    "This project is for parsing markdown and latex hybrid text content and outputting html page with nice presentation.",
+  "description": "This project is for parsing markdown and latex hybrid text content and outputting html page with nice presentation.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.build.js",
-    "debug":
-      "node --inspect $(npm bin)/webpack --config webpack.config.build.js --progress --watch",
+    "debug": "node --inspect $(npm bin)/webpack --config webpack.config.build.js --progress --watch",
     "deploy": "node ./deploy.js",
     "rename": "node ./lib/utils/rename.js"
   },
-  "keywords": ["markdown-it", "katex"],
+  "bin": {
+    "course-x-build": "bin/build.js",
+    "course-x-deploy": "bin/deploy.js"
+  },
+  "keywords": [
+    "markdown-it",
+    "katex"
+  ],
   "author": "raven",
   "license": "UNLICENSED",
   "dependencies": {
@@ -25,6 +30,7 @@
     "bluebird": "^3.5.1",
     "cheerio": "^1.0.0-rc.2",
     "clean-webpack-plugin": "^0.1.18",
+    "commander": "^2.15.0",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.9",
     "eval": "^0.1.2",

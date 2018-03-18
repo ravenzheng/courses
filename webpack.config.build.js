@@ -5,21 +5,25 @@ const GenerateStaticPagePlugin = require('./lib/GenerateStaticPagePlugin');
 const path = require('path');
 
 const ENTRY_PATH = './generate.js';
-const OUTPUT_PATH = path.join(__dirname, 'build');
 
-const cleanPlugin = new CleanWebpackPlugin('build/*');
+const basename = path.basename(process.cwd());
+const dist = path.join(process.cwd(), 'build');
+debugger;
+const cleanPlugin = new CleanWebpackPlugin(dist, {
+  allowExternal: true
+});
 const copyWebpackPlugin = new CopyWebpackPlugin(
   [
     {
-      context: 'source',
+      context: path.join(process.cwd(), 'source'),
       from: '**/assets/*',
-      to: 'courses',
+      to: basename,
       toType: 'dir'
     }
   ],
   { debug: 'info' }
 );
-const extractCSSPlugin = new ExtractTextPlugin('courses/combined.css');
+const extractCSSPlugin = new ExtractTextPlugin(`${basename}/combined.css`);
 const generateStaticPagePlugin = new GenerateStaticPagePlugin();
 
 const config = {
@@ -40,7 +44,7 @@ const config = {
   entry: ENTRY_PATH,
   output: {
     filename: 'generate.js',
-    path: OUTPUT_PATH,
+    path: dist,
     libraryTarget: 'umd'
   },
   plugins: [cleanPlugin, extractCSSPlugin, copyWebpackPlugin, generateStaticPagePlugin],
