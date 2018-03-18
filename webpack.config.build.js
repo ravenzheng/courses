@@ -15,8 +15,8 @@ const cleanPlugin = new CleanWebpackPlugin(dist, {
 const copyWebpackPlugin = new CopyWebpackPlugin(
   [
     {
-      context: path.join(process.cwd(), 'source'),
-      from: '**/assets/*',
+      context: process.cwd(),
+      from: 'assets/*',
       to: basename,
       toType: 'dir'
     }
