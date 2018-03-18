@@ -6,19 +6,6 @@ main {
   margin-left: 20px;
 }
 
-/* HomeBody */
-
-.course-list {}
-
-.course-list-item {
-  font-size: 1.25em;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin: 15px 25px;
-}
-
-.course-list-item a {}
-
 .note-meta {
   background-color: #f9fafa;
   border-top: 4px solid #38accd;

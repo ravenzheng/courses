@@ -3,7 +3,7 @@
   text-transform: capitalize;
 }
 
-.homework-list, .misc-list {
+.homework-list, .misc-list, .topics-list {
   padding: 0;
   margin: 0;
   display: flex;
@@ -11,7 +11,7 @@
   flex-wrap: wrap;
 }
 
-.homework-list .list-item, .misc-list .list-item {
+.homework-list .list-item, .misc-list .list-item, .topics-list .list-item {
   background-color: #f8f8f8;
   padding: 5px 10px;
   margin: 5px 15px 5px 0px;
