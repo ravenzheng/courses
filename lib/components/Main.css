@@ -123,18 +123,6 @@ main {
   margin-bottom: 1em;
 }
 
-.markdown-body {
-  min-height: 200px;
-}
-
-.markdown-body h3 {
-  color: #ec407a;
-}
-
-/* .markdown-body img {
-  float: right;
-} */
-
 .note-footer {
   background-color: #f8f8f8;
   font-size: 0.85em;
@@ -169,18 +157,7 @@ main {
   .note-tags-section {
     display: none;
   }
-  .markdown-body {
-    font-size: 1em;
-  }
   .named-container {
-    margin-bottom: 2px;
-  }
-  .markdown-body p {
-    margin-bottom: 5px;
-  }
-  .markdown-body h3 {
-    background-color: white;
-    color: black;
     margin-bottom: 2px;
   }
   .named-container {
