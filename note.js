@@ -5,17 +5,6 @@ import 'github-markdown-css/github-markdown.css';
 import NoteBody from './lib/components/NoteBody';
 
 import './lib/style.css';
-import note from './source/phys208a/notes/quiz_0122.md';
+import note from './note-sample.md';
 
-const menu = [
-  {
-    name: 'Calculus',
-    link: '/courses/calculus'
-  },
-  {
-    name: 'HW0200',
-    link: ''
-  }
-];
-
-ReactDOM.render(<NoteBody menu={menu} note={note} />, document.getElementById('app'));
+ReactDOM.render(<NoteBody note={note} />, document.getElementById('app'));

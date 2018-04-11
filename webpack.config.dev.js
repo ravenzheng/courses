@@ -1,7 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
-// const ENTRY_PATH = path.join(__dirname, 'index.js');
 const OUTPUT_PATH = path.join(__dirname, 'build');
 
 const coursePageHtmlPlugin = new HtmlWebpackPlugin({
@@ -20,7 +19,6 @@ const notePageHtmlPlugin = new HtmlWebpackPlugin({
 
 const config = {
   entry: {
-    index: './index.js',
     course: './course.js',
     note: './note.js'
   },
@@ -60,7 +58,7 @@ const config = {
     contentBase: [OUTPUT_PATH],
     stats: 'errors-only',
     open: true,
-    openPage: 'courses',
+    openPage: 'course.html',
     port: 3000,
     overlay: {
       errors: true,
