@@ -26,7 +26,7 @@ a:hover {
 }
 
 ul {
-  list-style: none;
+  /* list-style: none; */
   margin: 0;
   padding: 0;
 }
@@ -56,10 +56,10 @@ table {
   color: #ec407a;
 }
 
-.katex-display {
+/* .katex-display {
   text-align: left;
   margin-left: 1em;
-}
+} */
 
 @media print {
   html body {

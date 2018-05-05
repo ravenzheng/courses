@@ -19,11 +19,17 @@ const copyWebpackPlugin = new CopyWebpackPlugin(
       from: 'assets/*',
       to: basename,
       toType: 'dir'
+    },
+    {
+      context: './lib',
+      from: 'assets/*',
+      to: basename,
+      toType: 'dir'
     }
   ],
   { debug: 'info' }
 );
-const extractCSSPlugin = new ExtractTextPlugin(`${basename}/combined.css`);
+const extractCSSPlugin = new ExtractTextPlugin(`${basename}/assets/combined.css`);
 const generateStaticPagePlugin = new GenerateStaticPagePlugin();
 
 const config = {
