@@ -12,6 +12,9 @@ rules:
   comma-dangle:
     - 2
     - never
+  no-use-before-define:
+    - 2
+    - functions: false
   prefer-destructuring:
     - 0
   react/jsx-filename-extension:

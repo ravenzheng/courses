@@ -3,5 +3,7 @@ build
 npm-debug.log
 !.gitkeep
 .eslintcache
+course-chapters.json
+course-sections.json
 course-sample.json
 note-sample.md
