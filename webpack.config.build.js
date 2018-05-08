@@ -22,7 +22,7 @@ const copyWebpackPlugin = new CopyWebpackPlugin(
     },
     {
       context: './lib',
-      from: 'assets/*',
+      from: 'assets/**/*',
       to: basename,
       toType: 'dir'
     }
