@@ -27,7 +27,7 @@ const copyWebpackPlugin = new CopyWebpackPlugin(
       toType: 'dir'
     }
   ],
-  { debug: 'info' }
+  { debug: 'warning' }
 );
 const extractCSSPlugin = new ExtractTextPlugin(`${basename}/assets/combined.css`);
 const generateStaticPagePlugin = new GenerateStaticPagePlugin();
