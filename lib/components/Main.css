@@ -27,18 +27,6 @@
   page-break-inside: avoid;
 }
 
-.named-container-example {
-  padding: 0.5em 0em;
-  color: #6a737d;
-  page-break-inside: avoid;
-}
-
-.named-container-theorem, .named-container-defintion {
-  border: 1px solid #38accd;
-  padding: 0.5em 0.5em;
-  margin-bottom: 1em;
-}
-
 @media screen and (min-width: 960px) {
   .container {
     padding: 30px;

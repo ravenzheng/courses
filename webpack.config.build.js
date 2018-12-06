@@ -15,7 +15,7 @@ const cleanPlugin = new CleanWebpackPlugin(dist, {
 const copyWebpackPlugin = new CopyWebpackPlugin(
   [
     {
-      context: process.cwd(),
+      context: path.join(process.cwd(), "notes"),
       from: 'assets/*',
       to: basename,
       toType: 'dir'

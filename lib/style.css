@@ -56,6 +56,14 @@ table {
   color: #ec407a;
 }
 
+.markdown-body img {
+  display: block;
+  margin: 0 auto;
+  box-sizing: content-box;
+  max-width: 100%;
+  background-color: #fff;
+}
+
 /* .katex-display {
   text-align: left;
   margin-left: 1em;
