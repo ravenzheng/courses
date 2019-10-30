@@ -1,2 +1,3 @@
 lib/GenerateStaticPagePlugin.js
+lib/parse_math.js
 build/generate.js
