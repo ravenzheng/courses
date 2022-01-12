@@ -41,7 +41,7 @@
     "html-webpack-plugin": "^2.30.1",
     "katex": "^0.10.2",
     "klaw-sync": "^3.0.2",
-    "markdown-it": "^8.4.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-meta": "0.0.1",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "moment": "^2.21.0",
