@@ -44,7 +44,7 @@
     "markdown-it": "^8.4.0",
     "markdown-it-meta": "0.0.1",
     "markdown-it-toc-and-anchor": "^4.2.0",
-    "moment": "^2.21.0",
+    "moment": "^2.29.2",
     "prop-types": "^15.6.0",
     "q": "^1.5.1",
     "raw-loader": "^0.5.1",
